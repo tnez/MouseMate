@@ -1,0 +1,22 @@
+
+* MouseMate
+
+  OSX application designed to sit in the menubar and detect when a
+  mouse is present, giving the user the ability to toggle the scroll
+  behavior of their machine.
+
+  Here is the story... I spend roughly half the time with my laptop
+  docked on my desk with a USB mouse attached. The other half is spent
+  as a laptop with only the trackpad. I like the new, natural
+  scrolling behavior while I'm using the trackpad, but I still like
+  the old "down-is-down" behavior when using the scroll wheel on the
+  mouse. It only takes a few seconds to go into preferences and toggle
+  the behavior evertime I dock and un-dock. But the fact that I do
+  this multiple times a day makes it very annoying!!! I'm making this
+  application for myself as well as anyone in the same situation as me
+  in order to avoid the minor, but constant annoyance and
+  automagically give me my desired scroll behavior based on the
+  detected presence of a mouse.
+
+  This application is currently under development, but check back soon
+  as I should be able to complete this quickly, pending my availability.
