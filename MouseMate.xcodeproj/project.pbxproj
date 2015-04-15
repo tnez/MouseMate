@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C1FE561ADE8C3C00EC1B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1FE551ADE8C3C00EC1B38 /* AppDelegate.swift */; };
+		40C1FE581ADE8C3C00EC1B38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C1FE571ADE8C3C00EC1B38 /* Images.xcassets */; };
+		40C1FE5B1ADE8C3C00EC1B38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C1FE591ADE8C3C00EC1B38 /* MainMenu.xib */; };
+		40C1FE671ADE8C3C00EC1B38 /* MouseMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1FE661ADE8C3C00EC1B38 /* MouseMateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C1FE611ADE8C3C00EC1B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C1FE481ADE8C3C00EC1B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C1FE4F1ADE8C3C00EC1B38;
+			remoteInfo = MouseMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C1FE501ADE8C3C00EC1B38 /* MouseMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C1FE541ADE8C3C00EC1B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C1FE551ADE8C3C00EC1B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C1FE571ADE8C3C00EC1B38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40C1FE5A1ADE8C3C00EC1B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40C1FE601ADE8C3C00EC1B38 /* MouseMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C1FE651ADE8C3C00EC1B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C1FE661ADE8C3C00EC1B38 /* MouseMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C1FE4D1ADE8C3C00EC1B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C1FE5D1ADE8C3C00EC1B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C1FE471ADE8C3C00EC1B38 = {
+			isa = PBXGroup;
+			children = (
+				40C1FE521ADE8C3C00EC1B38 /* MouseMate */,
+				40C1FE631ADE8C3C00EC1B38 /* MouseMateTests */,
+				40C1FE511ADE8C3C00EC1B38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C1FE511ADE8C3C00EC1B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C1FE501ADE8C3C00EC1B38 /* MouseMate.app */,
+				40C1FE601ADE8C3C00EC1B38 /* MouseMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C1FE521ADE8C3C00EC1B38 /* MouseMate */ = {
+			isa = PBXGroup;
+			children = (
+				40C1FE551ADE8C3C00EC1B38 /* AppDelegate.swift */,
+				40C1FE571ADE8C3C00EC1B38 /* Images.xcassets */,
+				40C1FE591ADE8C3C00EC1B38 /* MainMenu.xib */,
+				40C1FE531ADE8C3C00EC1B38 /* Supporting Files */,
+			);
+			path = MouseMate;
+			sourceTree = "<group>";
+		};
+		40C1FE531ADE8C3C00EC1B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C1FE541ADE8C3C00EC1B38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40C1FE631ADE8C3C00EC1B38 /* MouseMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C1FE661ADE8C3C00EC1B38 /* MouseMateTests.swift */,
+				40C1FE641ADE8C3C00EC1B38 /* Supporting Files */,
+			);
+			path = MouseMateTests;
+			sourceTree = "<group>";
+		};
+		40C1FE641ADE8C3C00EC1B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C1FE651ADE8C3C00EC1B38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C1FE4F1ADE8C3C00EC1B38 /* MouseMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C1FE6A1ADE8C3C00EC1B38 /* Build configuration list for PBXNativeTarget "MouseMate" */;
+			buildPhases = (
+				40C1FE4C1ADE8C3C00EC1B38 /* Sources */,
+				40C1FE4D1ADE8C3C00EC1B38 /* Frameworks */,
+				40C1FE4E1ADE8C3C00EC1B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseMate;
+			productName = MouseMate;
+			productReference = 40C1FE501ADE8C3C00EC1B38 /* MouseMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C1FE5F1ADE8C3C00EC1B38 /* MouseMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C1FE6D1ADE8C3C00EC1B38 /* Build configuration list for PBXNativeTarget "MouseMateTests" */;
+			buildPhases = (
+				40C1FE5C1ADE8C3C00EC1B38 /* Sources */,
+				40C1FE5D1ADE8C3C00EC1B38 /* Frameworks */,
+				40C1FE5E1ADE8C3C00EC1B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C1FE621ADE8C3C00EC1B38 /* PBXTargetDependency */,
+			);
+			name = MouseMateTests;
+			productName = MouseMateTests;
+			productReference = 40C1FE601ADE8C3C00EC1B38 /* MouseMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C1FE481ADE8C3C00EC1B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Travis Nesland";
+				TargetAttributes = {
+					40C1FE4F1ADE8C3C00EC1B38 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					40C1FE5F1ADE8C3C00EC1B38 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 40C1FE4F1ADE8C3C00EC1B38;
+					};
+				};
+			};
+			buildConfigurationList = 40C1FE4B1ADE8C3C00EC1B38 /* Build configuration list for PBXProject "MouseMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C1FE471ADE8C3C00EC1B38;
+			productRefGroup = 40C1FE511ADE8C3C00EC1B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C1FE4F1ADE8C3C00EC1B38 /* MouseMate */,
+				40C1FE5F1ADE8C3C00EC1B38 /* MouseMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C1FE4E1ADE8C3C00EC1B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C1FE581ADE8C3C00EC1B38 /* Images.xcassets in Resources */,
+				40C1FE5B1ADE8C3C00EC1B38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C1FE5E1ADE8C3C00EC1B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C1FE4C1ADE8C3C00EC1B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C1FE561ADE8C3C00EC1B38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C1FE5C1ADE8C3C00EC1B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C1FE671ADE8C3C00EC1B38 /* MouseMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C1FE621ADE8C3C00EC1B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C1FE4F1ADE8C3C00EC1B38 /* MouseMate */;
+			targetProxy = 40C1FE611ADE8C3C00EC1B38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C1FE591ADE8C3C00EC1B38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C1FE5A1ADE8C3C00EC1B38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C1FE681ADE8C3C00EC1B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C1FE691ADE8C3C00EC1B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40C1FE6B1ADE8C3C00EC1B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MouseMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40C1FE6C1ADE8C3C00EC1B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MouseMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40C1FE6E1ADE8C3C00EC1B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MouseMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseMate.app/Contents/MacOS/MouseMate";
+			};
+			name = Debug;
+		};
+		40C1FE6F1ADE8C3C00EC1B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MouseMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseMate.app/Contents/MacOS/MouseMate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C1FE4B1ADE8C3C00EC1B38 /* Build configuration list for PBXProject "MouseMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C1FE681ADE8C3C00EC1B38 /* Debug */,
+				40C1FE691ADE8C3C00EC1B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C1FE6A1ADE8C3C00EC1B38 /* Build configuration list for PBXNativeTarget "MouseMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C1FE6B1ADE8C3C00EC1B38 /* Debug */,
+				40C1FE6C1ADE8C3C00EC1B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40C1FE6D1ADE8C3C00EC1B38 /* Build configuration list for PBXNativeTarget "MouseMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C1FE6E1ADE8C3C00EC1B38 /* Debug */,
+				40C1FE6F1ADE8C3C00EC1B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C1FE481ADE8C3C00EC1B38 /* Project object */;
+}
